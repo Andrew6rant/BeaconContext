@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "beaconcontext",
+	"version": "${version}",
+	"name": "BeaconContext",
+	"description": "Changes the granularity of Minecraft's effects to allow for fractional values",
+	"authors": [
+		"Andrew6rant (Andrew Grant)"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/beaconcontext/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "io.github.andrew6rant.beaconcontext.BeaconContext"
+		]
+	},
+	"mixins": [
+		"beaconcontext.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
