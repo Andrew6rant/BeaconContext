@@ -3,6 +3,7 @@
   "package": "io.github.andrew6rant.beaconcontext.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "BeaconBlockEntityMixin",
     "EffectCommandMixin",
     "PotionsMixin",
     "StatusEffectInvoker",
